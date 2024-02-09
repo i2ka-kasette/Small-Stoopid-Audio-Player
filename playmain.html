@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+<div>
+<script>
+var x = document.getElementById("playimg_audio");
+
+function playAudio() {
+  x.play();
+}
+</script>
+
+<style>
+.play1a {
+  position:center;
+}
+.playimg{
+  transform:translate(0px,145px);
+}
+.barimg{
+}
+</style>
+<div class="play1a" align="center">
+<audio id="playimg_audio">
+<source src="https://files.catbox.moe/w8f3qn.wav" type="audio/mpeg">
+</audio>
+<img onclick="playAudio()" width="50px" id="playimg" class="playimg" src="https://katzenhausnet.neocities.org/Play.png">
+</div>
+<br>
+<div class="barimg" align="center">
+<img width="200px" image-render="smooth" class="barimg" src="https://katzenhausnet.neocities.org/Bar.png">
+</div>
+</div>
+  </body>
+</html>
